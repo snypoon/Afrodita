@@ -1,0 +1,90 @@
+.social {
+  text-align: right;
+}
+.social__icons {
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 33px;
+  
+}
+
+.social__text {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  display: block;
+}
+
+.social__link{
+  background-color: #d0d0d0;
+  border-radius: 100px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-left: 10px;
+  
+}
+
+.social__link:hover {
+  background-color: #f89513;
+  border-radius: 100px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-left: 10px; 
+} 
+
+
+.sprite {
+  background-image: url("/img/icons/spritesheet.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.sprite__fb {
+  width: 6px;
+  height: 13px;
+  background-position: -10px -10px;
+}
+
+.sprite__google {
+  width: 15px;
+  height: 9px;
+  background-position: -36px -10px;
+}
+
+.sprite__mail {
+  width: 12px;
+  height: 9px;
+  background-position: -71px -10px;
+}
+
+.sprite__twitter {
+  width: 11px;
+  height: 9px;
+  background-position: -103px -10px;
+}
+
+.sprite__vk {
+  width: 12px;
+  height: 7px;
+  background-position: -134px -10px;
+}
+
+
+/* li.social__img:first-child{
+  margin: 0;
+} */
+
+/* .social__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+} */

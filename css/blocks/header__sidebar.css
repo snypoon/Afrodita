@@ -1,0 +1,105 @@
+.menu__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__link {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.menu__link:hover {
+  color: #f89513;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.menu__link-text {
+  vertical-align: middle;
+}
+
+.menu__link:before {
+  content: "";
+  width: 20px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 17px;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+
+.active {
+  color: #f89513;
+}
+
+.menu__link-main:before {
+  background: url("/img/main-icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.menu__link-main:hover:before {
+  background: url("/img/main-icon-active.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.menu__link-feed:before {
+  background: url("/img/feed-icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.menu__link-feed:hover:before {
+  background: url("/img/feed-icon-active.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.menu__link-service:before {
+  background: url("/img/service-icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.menu__link-service:hover:before {
+  background: url("/img/service-icon-active.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.menu__link-active{
+  color: #f89513;
+}
+.mmenu__link-main-active::before{
+  background: url("/img/main-icon-active.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.menu__link-main.active:before {
+  background: url("/img/main-icon-active.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.menu__link-feed.active:before {
+  background: url("/img/feed-icon-active.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.menu__link-service.active:before {
+  background: url("/img/service-icon-active.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
