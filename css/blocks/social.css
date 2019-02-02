@@ -39,7 +39,7 @@
 
 
 .sprite {
-  background-image: url("./img/icons/spritesheet.png");
+  background-image: url("../../img/icons/spritesheet.png");
   background-repeat: no-repeat;
   position: absolute;
   top: 50%;
